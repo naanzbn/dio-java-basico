@@ -1,7 +1,31 @@
 public class Operadores {
     public static void main(String[] args) {
-        String nomeCompleto = "LINGUAGEM" + "JAVA";
+        //classe Operadores.java
+String nomeCompleto = "LINGUAGEM" + "JAVA";
+		
+//qual o resultado das expressoes abaixo?
+String concatenacao ="?"; 
 
-        System.out.println(nomeCompleto);
+System.out.println(concatenacao);
+
+concatenacao = 1+1+1+"1";
+
+System.out.println(concatenacao);
+
+concatenacao = 1+"1"+1+1;
+
+System.out.println(concatenacao);
+
+concatenacao = 1+"1"+1+"1";
+
+System.out.println(concatenacao);
+
+concatenacao = "1"+1+1+1;
+
+System.out.println(concatenacao);
+
+concatenacao = "1"+(1+1+1);
+
+        System.out.println(concatenacao);
     }
 }
